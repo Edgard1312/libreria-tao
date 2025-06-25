@@ -33,7 +33,7 @@
 .login-conteiner form button{
     width: 100%;
     padding: 10px;
-    background-color: #016ada;
+    background-color: gray;
     color: white;
     border: none;
     border-radius: 10px;
@@ -41,5 +41,5 @@
     font-size: 1rem;
 }
 .login-conteiner form button:hover{
-    background-color: #034791;
+    background-color: black;
 }
