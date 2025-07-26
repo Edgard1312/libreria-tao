@@ -18,21 +18,22 @@ Librería TAO es una aplicación web de ecommerce diseñada para la venta de pro
 El proyecto libreria-tao está organizado en una arquitectura de cliente-servidor, dividida de la siguiente manera:
 
 libreria-tao-main/
+
 - client - Frontend desarrollado con React
 - src - Código fuente de React
 - public - Archivos estáticos
   
-├── src/ # Backend desarrollado con Node.js y Express
-│   ├── controllers/ # Lógica de controladores para las rutas
-│   ├── models/ # Definición de esquemas de datos (Mongoose)
-│   ├── routes/ # Definición de rutas API
-│   ├── middlewares/ # Middlewares personalizados (autenticación, validación)
-│   ├── schemas/ # Esquemas de validación de datos (Zod)
-│   └── ...
-├── uploads/ # Directorio para almacenar imágenes subidas de productos
-├── package.json # Configuración de dependencias del Backend
-├── package.json # Configuración de dependencias del Frontend
-└── ...
+- src - Backend desarrollado con Node.js y Express
+- controllers - Lógica de controladores para las rutas
+- models - Definición de esquemas de datos (Mongoose)
+- routes - Definición de rutas API
+- middlewares - Middlewares personalizados (autenticación, validación)
+- schemas - Esquemas de validación de datos (Zod)
+
+- uploads - Directorio para almacenar imágenes subidas de productos
+- package.json - Configuración de dependencias del Backend
+- package.json - Configuración de dependencias del Frontend
+
 
 
 ## 🚀 Instalación y Uso
